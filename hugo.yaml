@@ -20,3 +20,5 @@ menu:
       name: tags
       url: /tags/
       weight: 20
+
+metaDataFormat: "yaml"
