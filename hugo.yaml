@@ -1,24 +1,34 @@
 baseURL: "https://example.org/"
 languageCode: "en-us"
-title: "My PaperMod Site"
+title: "slax0r"
 theme: "PaperMod"
 
 params:
   env: "production"
-  title: "My Blog"
-  description: "Personal portfolio and blog"
-  showShareButtons: true
-  showCodeCopyButtons: true
+  title: "slax0r"
+  description: "Stories, Essays, & Poems"
+  showFullTextContent: false
+  displayFullPostContent: false
+  hideFooter: false
+  showShareButtons: false
+  showCodeCopyButtons: false
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  homeInfoParams:
+    Title: "Ink & Paper"
+    Content: "A collection of digital manuscripts, ranging from rhythmic verse to deep-dive essays."
 
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - name: "Stories"
+      url: "/categories/stories/"
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - name: "Essays"
+      url: "/categories/essays/"
       weight: 20
+    - name: "Poems"
+      url: "/categories/poems/"
+      weight: 30
 
 metaDataFormat: "yaml"
