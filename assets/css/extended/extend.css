@@ -9,7 +9,7 @@
 /* 2. Tighten the Site Header (slax0r) */
 .header {
     margin-top: 5px !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 0px !important;
 }
 
 .nav {
@@ -59,7 +59,7 @@ body {
 
 /* Target only the individual post pages */
 .single .main {
-    margin-top: 50px !important; /* Pushes the breadcrumbs down from the top nav */
+    padding-top: 50px !important; /* Pushes the breadcrumbs down from the top nav */
 }
 
 /* Ensure the post title has some air below it before the text starts */
