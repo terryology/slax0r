@@ -3,3 +3,7 @@
 
 # Hugo Build Lock
 .hugo_build.lock
+
+# Obsidian specific
+Templates/
+.obsidian/
