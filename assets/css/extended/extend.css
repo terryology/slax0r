@@ -29,7 +29,7 @@
 
 /* 4. Pull the post list (main container) up */
 .main {
-    margin-top: -30px !important; /* Adjust this number to bring posts closer */
+    margin-top: -50px !important; /* Adjust this number to bring posts closer */
     padding-top: 0 !important;
 }
 
