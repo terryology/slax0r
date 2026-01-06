@@ -1,0 +1,23 @@
+/* 1. Shrink the header (slax0r) spacing */
+.header {
+    margin-top: 10px;
+    margin-bottom: 0 !important;
+}
+
+/* 2. Tighten the "Ink and Paper" intro section */
+.home-info {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    margin-bottom: 10px !important;
+}
+
+/* 3. Pull the posts list closer to the intro */
+.main {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* 4. Shrink the gap between the title (Ink and Paper) and description */
+.home-info h1 {
+    margin-bottom: 5px;
+}
