@@ -37,3 +37,22 @@
 .post-entry {
     margin-bottom: 10px !important;
 }
+
+/* Change the font for the entire site */
+:root {
+    --nav-width: 800px; /* Makes the text column slightly wider for reading */
+}
+
+body {
+    /* "Georgia" is a classic book font; "Charter" is beautiful on Mac */
+    font-family: "Charter", "Georgia", "Times New Roman", serif !important;
+    font-size: 19px; /* Slightly larger for better reading flow */
+    line-height: 1.6; /* Adds "breathing room" between lines of a poem */
+    color: #222; /* A slightly softer black for less eye strain */
+}
+
+/* Keep the site title (slax0r) modern if you like, or change it too */
+.logo a {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: 700;
+}
