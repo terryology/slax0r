@@ -59,7 +59,7 @@ body {
 
 /* Only affects individual post pages, not the homepage */
 .single .main {
-    margin-top: 60px !important; /* Adjust this number to push the whole post down */
+    margin-top: 260px !important; /* Adjust this number to push the whole post down */
     padding-top: 0 !important;
 }
 
