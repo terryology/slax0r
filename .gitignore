@@ -7,3 +7,6 @@
 # Obsidian specific
 Templates/
 .obsidian/
+
+# Generated HTML
+public/
