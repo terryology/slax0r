@@ -1,0 +1,22 @@
+baseURL: "https://example.org/"
+languageCode: "en-us"
+title: "My PaperMod Site"
+theme: "PaperMod"
+
+params:
+  env: "production"
+  title: "My Blog"
+  description: "Personal portfolio and blog"
+  showShareButtons: true
+  showCodeCopyButtons: true
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
