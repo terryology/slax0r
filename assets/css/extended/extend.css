@@ -57,19 +57,11 @@ body {
     font-weight: 700;
 }
 
-.single .main::before {
-    content: "";
-    display: block;
-    height: 60px; /* Adjust this height to control the gap */
-    width: 100%;
-}
-
-/* Target the breadcrumbs specifically on post pages */
-.single .main .breadcrumbs {
-    display: flex !important; /* Keep it as flex so the Home > Post links stay horizontal */
-    margin-top: 80px !important; /* This is the 'push' you need */
-    margin-bottom: 20px !important;
-    padding-top: 0 !important;
+/* Move breadcrumbs down relative to their original position */
+.single .breadcrumbs {
+    position: relative !important;
+    top: 60px !important; /* This literally 'nudges' it down 60px */
+    margin-bottom: 80px !important; /* We need this so the title doesn't overlap it */
 }
 
 /* Ensure the post header follows with enough space */
@@ -82,7 +74,7 @@ body {
     margin-top: 20px !important;
 }
 
-/* Ensure the post title has some air below it before the text starts */
 .single .post-header {
-    margin-bottom: 10px !important;
+    position: relative !important;
+    top: 60px !important;
 }
