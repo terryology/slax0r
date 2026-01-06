@@ -62,9 +62,16 @@ body {
     padding-top: 50px !important; /* Pushes the breadcrumbs down from the top nav */
 }
 
+/* Specifically target the breadcrumbs on single post pages */
 .single .breadcrumbs {
-    margin-top: 10px !important;
-    margin-bottom: 30px !important;
+    display: block !important;
+    padding-top: 60px !important; /* This creates the gap at the top */
+    margin-bottom: 20px !important;
+}
+
+/* If the title is still too close to the breadcrumbs */
+.single .post-title {
+    margin-top: 20px !important;
 }
 
 /* Ensure the post title has some air below it before the text starts */
