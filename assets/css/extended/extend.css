@@ -57,14 +57,17 @@ body {
     font-weight: 700;
 }
 
-/* Target only the individual post pages */
-.single .main {
-    padding-top: 50px !important; /* Pushes the breadcrumbs down from the top nav */
+/* Target the breadcrumbs specifically on post pages */
+.single .main .breadcrumbs {
+    display: flex !important; /* Keep it as flex so the Home > Post links stay horizontal */
+    margin-top: 80px !important; /* This is the 'push' you need */
+    margin-bottom: 20px !important;
+    padding-top: 0 !important;
 }
 
-.single .breadcrumbs {
-    background-color: yellow !important; /* Temporary test */
-    padding-top: 100px !important;
+/* Ensure the post header follows with enough space */
+.single .post-header {
+    margin-top: 10px !important;
 }
 
 /* If the title is still too close to the breadcrumbs */
@@ -73,6 +76,6 @@ body {
 }
 
 /* Ensure the post title has some air below it before the text starts */
-.post-header {
+.single .post-header {
     margin-bottom: 10px !important;
 }
