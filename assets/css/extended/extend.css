@@ -1,16 +1,23 @@
-/* This targets the container for the "Ink and Paper" section */
-.home-info {
-    margin: 0 !important;
-    padding: 0 !important;
-    border: 1px solid red; /* TEMPORARY: This will draw a red box so we can see it */
-}
-
-/* This pulls the main content area up */
-.main {
-    margin-top: -20px !important; /* Negative margin pulls things UP */
-}
-
-/* Reduces space under the Site Title (slax0r) */
+/* 1. Shrink the header (slax0r) spacing */
 .header {
+    margin-top: 10px;
     margin-bottom: 0 !important;
+}
+
+/* 2. Tighten the "Ink and Paper" intro section */
+.home-info {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    margin-bottom: 10px !important;
+}
+
+/* 3. Pull the posts list closer to the intro */
+.main {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* 4. Shrink the gap between the title (Ink and Paper) and description */
+.home-info h1 {
+    margin-bottom: 5px;
 }
