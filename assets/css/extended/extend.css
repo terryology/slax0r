@@ -57,6 +57,13 @@ body {
     font-weight: 700;
 }
 
+.single .main::before {
+    content: "";
+    display: block;
+    height: 60px; /* Adjust this height to control the gap */
+    width: 100%;
+}
+
 /* Target the breadcrumbs specifically on post pages */
 .single .main .breadcrumbs {
     display: flex !important; /* Keep it as flex so the Home > Post links stay horizontal */
