@@ -1,2 +1,5 @@
+# macOS DS_Store
 .DS_Store
-.DS_Store
+
+# Hugo Build Lock
+.hugo_build.lock
