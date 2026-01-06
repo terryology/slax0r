@@ -1,0 +1,21 @@
+/* 1. Tighten the space above the "Ink and Paper" section */
+.first-entry {
+    margin-top: 10px; /* Reduces space between Site Title and Intro */
+}
+
+/* 2. Tighten the "Ink and Paper" box itself */
+.home-info {
+    margin-top: 0;
+    margin-bottom: 0; /* Reduces space below the intro text */
+    padding: 10px 0;   /* Shrinks the internal padding of the box */
+}
+
+/* 3. The specific Title in that intro section */
+.home-info h1 {
+    margin-bottom: 10px; /* Space between "Ink and Paper" and the description */
+}
+
+/* 4. The description text inside the intro */
+.home-info .p {
+    margin-bottom: 15px; /* Space before the list of posts begins */
+}
