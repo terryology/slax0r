@@ -62,6 +62,11 @@ body {
     padding-top: 50px !important; /* Pushes the breadcrumbs down from the top nav */
 }
 
+.single .breadcrumbs {
+    margin-top: 10px !important;
+    margin-bottom: 30px !important;
+}
+
 /* Ensure the post title has some air below it before the text starts */
 .post-header {
     margin-bottom: 10px !important;
