@@ -56,3 +56,15 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-weight: 700;
 }
+
+/* Only apply this to individual post pages */
+.single .main {
+    margin-top: 40px !important; /* Adjust this to push the post title down */
+    padding-top: 20px !important;
+}
+
+/* Add some breathing room above the post title specifically */
+.post-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
