@@ -2,7 +2,7 @@
 .home-info {
     border: none !important;
     margin-top: -10px !important; /* Pulls the whole intro box up */
-    margin-bottom: -10px !important; /* Pulls the posts up toward it */
+    margin-bottom: -40px !important; /* Pulls the posts up toward it */
     padding: 0 !important;
 }
 
@@ -29,7 +29,7 @@
 
 /* 4. Pull the post list (main container) up */
 .main {
-    margin-top: -100px !important; /* Adjust this number to bring posts closer */
+    margin-top: -30px !important; /* Adjust this number to bring posts closer */
     padding-top: 0 !important;
 }
 
