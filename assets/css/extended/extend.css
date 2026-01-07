@@ -1,79 +1,52 @@
-/* 1. Remove the red border now that we know it works */
+/* 1. Pull "Ink and Paper" closer to the top navigation */
+.home .main {
+    margin-top: 0 !important; /* Removes the gap above the intro */
+    padding-top: 5px !important;
+}
+
 .home-info {
-    border: none !important;
-    margin-top: -10px !important; /* Pulls the whole intro box up */
-    margin-bottom: -40px !important; /* Pulls the posts up toward it */
-    padding: 0 !important;
-}
-
-/* 2. Tighten the Site Header (slax0r) */
-.header {
-    margin-top: 5px !important;
-    margin-bottom: 0px !important;
-}
-
-.nav {
-    margin-bottom: 0 !important;
-}
-
-/* 3. Tighten the "Ink and Paper" text internally */
-.home-info h1 {
-    margin-top: 0 !important;
-    margin-bottom: 5px !important;
-    line-height: 1.1;
-}
-
-.home-info .p {
-    margin-bottom: 10px !important;
-}
-
-/* 4. Pull the post list (main container) up */
-.main {
-    margin-top: -30px !important; /* Adjust this number to bring posts closer */
+    margin-top: -50px !important;
     padding-top: 0 !important;
+    margin-bottom: -50px !important; /* Pulls the post list UP toward the intro */
 }
 
-/* 5. Optional: Reduce space between the post titles in the list */
+/* 2. Tighten the gap between "Ink and Paper" and the description below it */
+.home-info h1 {
+    margin-bottom: 5px !important;
+}
+
+/* 3. Pull the post listings closer to the "Ink and Paper" section */
 .post-entry {
-    margin-bottom: 10px !important;
+    margin-top: 0 !important;
+    margin-bottom: 15px !important; /* Tightens space between individual posts */
 }
 
-/* Change the font for the entire site */
+/* --- Typography & Branding --- */
+
 :root {
-    --nav-width: 800px; /* Makes the text column slightly wider for reading */
+    /* This makes the text area slightly wider for a better reading flow */
+    --nav-width: 750px; 
 }
 
 body {
-    /* "Georgia" is a classic book font; "Charter" is beautiful on Mac */
+    /* Charter is a beautiful Mac font; Georgia is the classic fallback */
     font-family: "Charter", "Georgia", "Times New Roman", serif !important;
-    font-size: 19px; /* Slightly larger for better reading flow */
-    line-height: 1.6; /* Adds "breathing room" between lines of a poem */
-    color: #222; /* A slightly softer black for less eye strain */
+    font-size: 19px; 
+    line-height: 1.6;
+    color: #1d1d1f; /* A soft, ink-like black */
+    -webkit-font-smoothing: antialiased;
 }
 
-/* Keep the site title (slax0r) modern if you like, or change it too */
-.logo a {
+/* Keep the Site Title (slax0r) and Menu modern/clean */
+.logo a, .menu a {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }
 
-/* Only affects individual post pages, not the homepage */
-.single .main {
-    margin-top: 260px !important; /* Adjust this number to push the whole post down */
-    padding-top: 0 !important;
-}
-
-/* Ensure the post header follows with enough space */
-.single .post-header {
-    margin-top: 10px !important;
-}
-
-/* If the title is still too close to the breadcrumbs */
-.single .post-title {
-    margin-top: 20px !important;
-}
-
-.single .post-header {
-    position: relative !important;
-    top: 60px !important;
+/* Adjust post titles to be a bit more prominent */
+.post-title {
+    font-family: "Charter", "Georgia", serif;
+    font-weight: 800;
+    margin-bottom: 10px;
 }
