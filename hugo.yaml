@@ -8,6 +8,13 @@ outputs:
     - HTML
     - RSS
     - JSON
+    - jsonfeed
+
+outputFormats:
+  jsonfeed:
+    mediaType: "application/json"
+    baseName: "feed"
+    isPlainText: true
 
 params:
   env: "production"
