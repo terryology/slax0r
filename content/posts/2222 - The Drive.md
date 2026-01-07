@@ -1,0 +1,19 @@
+---
+title: 2222 - The Drive
+date: 2026-01-06T23:03:05-06:00
+draft: false
+categories:
+  - Stories
+summary: Inspired by a nighttime drive down a wonderfully curvy road.
+---
+​Silence adorns the darkness like a blanket. Suddenly lights, followed by sound. A hum rapidly grows in amplitude and pitch, approaching from the east. The sound of a hundred different mechanical operations working together. Then, nothing. Serenity returns like air rushing in to fill a vacuum. Matter previously displaced now settles back, more often than not acquiring a new place of residence. In the darkness, a glint of red diminishes.
+
+​Inside the vehicle, two needles emit an orange glow, giving a reading of relevant information at other times, but for this particular moment, they are ignored. Intuition and memory are the only instruments needed here; to rely on anything else is folly. I am driving down the Austin, Texas Road to Market 2222, headed towards the water, and what a magnificent drive it is.
+
+​One hand resting on the wheel and one on the shifter-pointless as I shamelessly drive an automatic-I look around, not really knowing what I'm trying to find. A remote location, I am not extremely concerned with the enforcement of the law. A rather desolate location, I am far from admiring the view; that will be available later. As the reflectors on the pavement do their job in earnest in the quiet night, they create a different form of beauty that few recognize or appreciate. A car approaches from the west and I sigh in secret as I realize that I am not the only one here. The car passes and I can once again be secure in my knowledge that I am the solitary life form on the planet. My foot relaxes pressure from the accelerator and I begin to slow, coming to a stop. I find myself at an intersection. This is where the real fun begins. I take a left.
+
+​The assumption that I was now heading south would be correct in most cases, except that this road does not accept such simple logic. Cardinal directions are dilapidated due to the banks and curves. Signs suggest safe travel speeds, but they too are ignored. Taking some fairly acute angles, my internal organs temporarily relieve themselves from their posts and attempt to convince my brain that what I am doing is not in their best interest. It takes this into account, and continues as planned. A while later, after having gained some altitude, I am now at the point where it is rewarding, and hazardous, to look about. Through the quickly passing bundles of trees, I am able to catch glimpses of the lake, and the moon reflected by it. It is beauty, but I dare not stare too long, for my life depends on the road ahead of me, and not the actions around it. I can appreciate but can not participate.
+
+​The hairpin turns continue, as does my heel-toe footwork. I try to focus, and concentrate only on my velocity, yet the lake calls to me. Soon enough. Headlights appear in front of me, and a brief moment of terror strikes. It appears that another car is attempting to make its way onto the road I am currently occupying. A second look reveals that the car is motionless, and unoccupied. The same car that is always parked there has managed to fool me for yet another night. With it, cabins appear and a small town begins to unfold. Once again I am able to pay attention to objects around me, and I start to take heed to the speedometer.
+
+​The paved road ends and turns to gravel. Here I must be extremely careful, for I am nearing the end of my journey, and I am unable to predict where the water begins. On drives past the tide has taken me by surprise. Finally, my car halts, and there is silence once more. I stretch my legs and look out upon the lake, and the darkness. I am unable to say which is more elegant. The overwhelming silence, the sublime sounds, and the ambiguity of the night all tantalize the imagination. Here, you can remember, and forget. Here, you can be anything.
