@@ -50,3 +50,28 @@ body {
     font-weight: 800;
     margin-bottom: 10px;
 }
+
+/* --- MOBILE LAYOUT REPAIR --- */
+@media (max-width: 850px) {
+  .intro.article {
+    /* Allow the box to grow with your longer story */
+    height: auto !important;
+    min-height: min-content !important;
+    
+    /* Push the first post card down to prevent overlap */
+    margin-bottom: 3rem !important; 
+    
+    /* Ensure padding doesn't collapse */
+    padding-bottom: 1.5rem !important;
+    
+    /* Reset any absolute positioning that might be causing the "squish" */
+    position: relative !important;
+    display: block !important;
+  }
+
+  /* Target the first post card specifically if it's still too close */
+  .archive-item:first-of-type, 
+  .article:not(.intro):first-of-type {
+    margin-top: 1rem !important;
+  }
+}
