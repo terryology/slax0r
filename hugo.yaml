@@ -29,8 +29,8 @@ params:
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
   homeInfoParams:
-    Title: "Ink & Paper"
-    Content: "A collection of digital manuscripts, ranging from rhythmic verse to deep-dive essays."
+    Title: "Decades of Prose"
+    Content: "A collection of writing spanning from college to the modern day. I'm proud of some, embarrassed by others, but they have all contributed in some way to my growth and style as a writer. I invite you to get cozy and and peruse these stories. "
 
 menu:
   main:
