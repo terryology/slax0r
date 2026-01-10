@@ -1,4 +1,3 @@
-/* 1. Pull "Ink and Paper" closer to the top navigation */
 .home .main {
     margin-top: 0 !important; /* Removes the gap above the intro */
     padding-top: 5px !important;
@@ -10,12 +9,10 @@
     margin-bottom: -50px !important; /* Pulls the post list UP toward the intro */
 }
 
-/* 2. Tighten the gap between "Ink and Paper" and the description below it */
 .home-info h1 {
     margin-bottom: 5px !important;
 }
 
-/* 3. Pull the post listings closer to the "Ink and Paper" section */
 .post-entry {
     margin-top: 0 !important;
     margin-bottom: 15px !important; /* Tightens space between individual posts */
@@ -29,7 +26,6 @@
 }
 
 body {
-    /* Charter is a beautiful Mac font; Georgia is the classic fallback */
     font-family: "Charter", "Georgia", "Times New Roman", serif !important;
     font-size: 19px; 
     line-height: 1.6;
