@@ -1,12 +1,16 @@
-# macOS DS_Store
+# OS Excludes
 .DS_Store
+Thumbs.db
 
-# Hugo Build Lock
+# Hugo Excludes
+public/
 .hugo_build.lock
+resources/_gen/
 
-# Obsidian specific
+# Local Development Excludes
+static/css/test.css
+static/css/experimental.css
+
+# Obsidian Excludes
 Templates/
 .obsidian/
-
-# Generated HTML
-public/
