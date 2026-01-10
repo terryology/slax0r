@@ -52,26 +52,25 @@ body {
 }
 
 /* --- MOBILE LAYOUT REPAIR --- */
-@media (max-width: 850px) {
-  .intro.article {
-    /* Allow the box to grow with your longer story */
-    height: auto !important;
-    min-height: min-content !important;
-    
-    /* Push the first post card down to prevent overlap */
-    margin-bottom: 3rem !important; 
-    
-    /* Ensure padding doesn't collapse */
-    padding-bottom: 1.5rem !important;
-    
-    /* Reset any absolute positioning that might be causing the "squish" */
-    position: relative !important;
-    display: block !important;
-  }
+/* Ensure the intro section (home-info) doesn't overlap on mobile */
+@media (max-width: 768px) {
+    .first-entry {
+        /* Force the first post to start ONLY after the intro text ends */
+        margin-top: 40px !important;
+        clear: both;
+    }
 
-  /* Target the first post card specifically if it's still too close */
-  .archive-item:first-of-type, 
-  .article:not(.intro):first-of-type {
-    margin-top: 1rem !important;
-  }
+    .home-info {
+        /* Allow the height to expand for your new longer mission statement */
+        margin-top: 0 !important;
+        margin-bottom: 20px !important;
+        padding-top: 20px !important;
+        height: auto !important;
+    }
+
+    .home-info .p-3 {
+        /* This targets the description text specifically */
+        padding-bottom: 10px !important;
+        margin-bottom: 0 !important;
+    }
 }
